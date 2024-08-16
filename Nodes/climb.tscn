@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://dh4pxqcrrulad"]
+[gd_scene load_steps=8 format=3 uid="uid://dh4pxqcrrulad"]
 
-[ext_resource type="Script" path="res://Nodes/Paralax.gd" id="1_3odbj"]
+[ext_resource type="Script" path="res://Scripts/Paralax.gd" id="1_3odbj"]
+[ext_resource type="Script" path="res://Scripts/maingame.gd" id="1_oj0d5"]
 [ext_resource type="Texture2D" uid="uid://di5ycmaut7o0k" path="res://Assets/sky.png" id="1_xb3b2"]
 [ext_resource type="Texture2D" uid="uid://dhtfi2j2av674" path="res://Assets/ground1.png" id="2_c68h1"]
 [ext_resource type="Texture2D" uid="uid://brvbacri3t724" path="res://Assets/ground2.png" id="3_rabb5"]
@@ -8,9 +9,10 @@
 [ext_resource type="Texture2D" uid="uid://6l6fu7v2xmjr" path="res://Assets/heaven2.png" id="5_fvbtd"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_oj0d5")
 
 [node name="Background" type="Node2D" parent="."]
-scale = Vector2(18, 18)
+scale = Vector2(30, 30)
 script = ExtResource("1_3odbj")
 
 [node name="Sky" type="Sprite2D" parent="Background"]
