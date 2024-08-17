@@ -13,7 +13,6 @@ script = ExtResource("2_exkis")
 collisionID = "ledge"
 
 [node name="RigidBody2D" type="RigidBody2D" parent="."]
-scale = Vector2(1, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
 position = Vector2(-4.54747e-14, -1.84774e-07)

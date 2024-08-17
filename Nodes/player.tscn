@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://ehdgijciblah"]
+[gd_scene load_steps=3 format=3 uid="uid://ehdgijciblah"]
+
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_37paj"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i5ccf"]
 
 [node name="Player" type="AnimatedSprite2D"]
+script = ExtResource("1_37paj")
 
 [node name="Area2D" type="Area2D" parent="."]
 
