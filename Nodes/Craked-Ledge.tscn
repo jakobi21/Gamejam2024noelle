@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://6hhhysinucag"]
+
+[ext_resource type="Script" path="res://Scripts/Craked_Ledge.gd" id="1_0urjf"]
+
+[node name="Sprite2D" type="Sprite2D"]
+script = ExtResource("1_0urjf")
