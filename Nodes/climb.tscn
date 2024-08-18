@@ -8,9 +8,8 @@
 [ext_resource type="Texture2D" uid="uid://mhpo38nmpxex" path="res://Assets/heaven1.png" id="4_n740e"]
 [ext_resource type="Texture2D" uid="uid://6l6fu7v2xmjr" path="res://Assets/heaven2.png" id="5_fvbtd"]
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("Background")]
+[node name="Node2D" type="Node2D"]
 script = ExtResource("1_oj0d5")
-Background = NodePath("Background")
 
 [node name="Background" type="Node2D" parent="."]
 scale = Vector2(30, 30)
